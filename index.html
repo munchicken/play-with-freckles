@@ -16,8 +16,8 @@
                        ];
             function pokeFreckles() {
                 if (confirm("Would you like for Caboose to tell you more about me?")) {
-                    alert(phrases[0]);
-                    document.getElementById("frecklesImg").src = pics[1]
+                    alert(phrases[Math.floor((Math.random()*5)+0)]);
+                    document.getElementById("frecklesImg").src = pics[Math.floor((Math.random()*2)+0)];
                 }
                 
             }
