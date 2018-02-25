@@ -10,3 +10,13 @@ h3 {
     color:dimgrey;
     border-bottom: 1px solid black;
 }
+.notice {
+    color: darkslateblue;
+}
+div.plaything {
+    margin-top: 100px;
+    text-align: center;
+}
+img.plaything {
+    cursor: pointer;
+}
