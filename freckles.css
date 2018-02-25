@@ -11,18 +11,27 @@ h3 {
     border-bottom: 1px solid black;
     font-weight: normal;
 }
-#footer {
-    color: darkslateblue;
-    font-size: small;
-    font-style: oblique;
-}
-div.plaything {
-    margin-top: 50px;
+#header {
+    background-color: #6b8db5;
+    padding: 15px;
+    margin: 0px,10px,10px,10px;
     text-align: center;
 }
-img.plaything {
+#main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#frecklesImg {
     cursor: pointer;
 }
-.byline {
-    font-size: small;
+#footer {
+    color: darkslateblue;
+    font-size: x-small;
+    font-style: oblique;
+    text-align: center;
+    padding: 15px;
+    margin: 0px,10px,10px,10px;
+    border-top: thin dotted grey;
+    background-color: #6b8db5;
 }
