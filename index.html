@@ -1,11 +1,21 @@
 <html>
     <head>
         <title>Play with Freckles!</title>
+        
+        <script type="text/javascript">
+            function pokeFreckles() {
+                if (confirm("Would you like for Caboose to tell you more about me?")) {
+                    alert("His name is Freckles");
+                }
+                
+            }
+        </script>
     </head>
     
     <body onload="alert('Introducing the HRUNTING/YGGDRASIL Mark IX Armor Defense System');">
         <div style="margin-top: 100px; text-align: center">
-            <img id="mantisImg" src="images/mantis.png" alt="Freckles" />
+            <img id="mantisImg" src="images/mantis.png" alt="Freckles" style="cursor: pointer" onclick="pokeFreckles();"
+            />
         </div>
     </body>
 </html>
