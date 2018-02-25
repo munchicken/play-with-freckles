@@ -2,7 +2,7 @@ body {
     background-color: #789bcc;
     margin-left: 20%;
     margin-right: 20%;
-    border: 2px dotted black;
+    border: thin dotted black;
     padding: 10px 10px 10px 10px;
     font-family: Trebuchet MS, Geneva, Arial, sans-serif;
 }
@@ -11,15 +11,18 @@ h3 {
     border-bottom: 1px solid black;
     font-weight: normal;
 }
-.notice {
+#footer {
     color: darkslateblue;
     font-size: small;
     font-style: oblique;
 }
 div.plaything {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 img.plaything {
     cursor: pointer;
+}
+.byline {
+    font-size: small;
 }
