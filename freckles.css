@@ -9,9 +9,12 @@ body {
 h3 {
     color:dimgrey;
     border-bottom: 1px solid black;
+    font-weight: normal;
 }
 .notice {
     color: darkslateblue;
+    font-size: small;
+    font-style: oblique;
 }
 div.plaything {
     margin-top: 100px;
