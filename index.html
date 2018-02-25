@@ -3,9 +3,21 @@
         <title>Play with Freckles!</title>
         
         <script type="text/javascript">
+            var phrases = ["His name is Freckles",
+                           "Runs on the power of the friendship of our love",
+                           "fluffy ears to scratch",
+                           "cute little paws",
+                           "likes to play fetch",
+                           "lost his tail"
+                          ];
+            var pics = ["images/mantis.png",
+                        "images/freckles.png",
+                        "images/FnC.jpg"
+                       ];
             function pokeFreckles() {
                 if (confirm("Would you like for Caboose to tell you more about me?")) {
-                    alert("His name is Freckles");
+                    alert(phrases[0]);
+                    document.getElementById("frecklesImg").src = pics[1]
                 }
                 
             }
@@ -14,7 +26,7 @@
     
     <body onload="alert('Introducing the HRUNTING/YGGDRASIL Mark IX Armor Defense System');">
         <div style="margin-top: 100px; text-align: center">
-            <img id="mantisImg" src="images/mantis.png" alt="Freckles" style="cursor: pointer" onclick="pokeFreckles();"
+            <img id="frecklesImg" src="images/mantis.png" alt="Freckles" style="cursor: pointer" onclick="pokeFreckles();"
             />
         </div>
     </body>
