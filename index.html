@@ -20,6 +20,7 @@
                 if (confirm("Would you like for Caboose to tell you more about me?")) {
                     alert(phrases[Math.floor((Math.random()*6))]);
                     document.getElementById("frecklesImg").src = pics[Math.floor((Math.random()*3))];
+                    setTimeout("alert('You should play with Freckles');",1*60*1000);
                 }
                 
             }
