@@ -2,8 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8">
+        
         <title>Play with Freckles!</title>
+        
         <link type="text/css" rel="stylesheet" href="freckles.css">
+        
+        <script type="text/javascript" src="cookie.js"></script>
+        
         <script>
             var phrases = ["His name is Freckles",
                            "Runs on the power of the friendship of our love",
@@ -12,19 +17,22 @@
                            "likes to play fetch",
                            "lost his tail"
                           ];
+            
             var pics = ["images/mantis.png",
                         "images/freckles.png",
                         "images/FnC.jpg"
                        ];
+            
             function pokeFreckles() {
                 var userName = prompt("What's your name?","Enter name here");
+                
                 if (confirm(userName + " would you like for Caboose to tell you more about me?")) {
                     alert(phrases[Math.floor((Math.random()*6))]);
                     document.getElementById("frecklesImg").src = pics[Math.floor((Math.random()*3))];
                     setTimeout("alert('You should play with Freckles');",1*60*1000);
-                }
-                
+                }  
             };
+            
             function resizeFreckles() {
                 document.getElementById("frecklesImg").style.height = String((document.documentElement.clientHeight - 60) * 0.30) + 'px';
             };
