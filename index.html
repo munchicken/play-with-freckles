@@ -24,9 +24,13 @@
                     setTimeout("alert('You should play with Freckles');",1*60*1000);
                 }
                 
-            }
+            };
+            function resizeFreckles() {
+                document.getElementById("frecklesImg").style.height = String((document.documentElement.clientHeight - 60) * 0.30) + 'px';
+            };
         </script>
         
+        <!-- Google AdSense -->
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script>
              (adsbygoogle = window.adsbygoogle || []).push({
@@ -37,7 +41,7 @@
         
     </head>
     
-    <body onload="alert('Introducing the HRUNTING/YGGDRASIL Mark IX Armor Defense System');">
+    <body onload="resizeFreckles(); alert('Introducing the HRUNTING/YGGDRASIL Mark IX Armor Defense System');" onresize="resizeFreckles();">
         <div id="header">
             <h1>Play with Freckles!</h1>
             <h3>A little JavaScript experiment</h3>
